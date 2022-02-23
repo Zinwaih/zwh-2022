@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./photo/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cart {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    border-bottom: 4px solid #fff;
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col {
+    flex-basis: 50%;
+}
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+button {
+    width: 180px;
+    color: #000;
+    font-size: 13px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button:active {
+    top: 2px;
+    position: relative;
+}
+.card {
+    width: 328px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 66.5%;
+}
+.card1 {
+    background-image: url(./photo/man\ trainers.jpg);
+}
+.card2 {
+    background-image: url(./photo/woman\ trainers.jpg);
+}
+.card3 {
+    background-image: url(./photo/sandal.jpg);
+}
+.card4 {
+    background-image: url(./photo/leather.jpg);
+}
+.p2 {
+    color: rgb(144, 144, 144);
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+h5 {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+}
+.container2 {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 30px;
+}
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.Nav .title {
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10p;
+    width: 400px;
+}
+.Nav .navbar2 ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.Nav .navbar2 ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.Nav .navbar2 ul li a:hover {
+    text-decoration: underline;
+}
+.rows {
+    display: flex;
+    margin-top: 10px;
+}
+.shoes {
+    height: 500px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.shoes:hover {
+    transform: translateY(-20px);
+
+}
+.shoes del, .shoes b {
+    font-size: 25px;
+    padding: 20px;
+}
+.shoes button {
+    background-color: rgb(192, 192, 192);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+.shoes i {
+    color: rgb(192, 192, 192);
+    font-size: 25px;
+    margin-left: 20px
+}
+.p1 {
+    margin-top: 67px;
+    width: 200px;
+    display: block;
+}
+.p2 {
+    width: 200px;
+    display: block;
+}
+.p3 {
+    width: 200px;
+    display: block;
+}
+.p4 {
+    width: 200px;
+    display: block;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+img {
+    width: 600px;
+    border-radius: 30px;
+    margin-right: 40px;
+}
+.paragraph {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.paragraph h3 {
+    text-transform: none;
+    font-size: 20px;
+}
+.paragraph:hover {
+    transform: translateY(-10px);
+}
+.content2 {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.div-1 {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 420px;
+    margin-bottom: 10px;
+}
+.div-2 {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 420px;
+    margin-top: 10px;
+}
+.footer {
+    background-color: #E5E3C9;
+    height: auto
+}
+.footer p {
+    color: #789395;
+    text-align: center;
+}
+.footer ul li {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #789395;
+    text-align: center;
+}
